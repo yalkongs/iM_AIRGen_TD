@@ -1,0 +1,39 @@
+{
+  "name": "mkt-desk",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"node server.mjs\" \"vite\"",
+    "server": "node server.mjs",
+    "client": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "clsx": "^2.1.0",
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.6",
+    "date-fns": "^3.3.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "html2pdf.js": "^0.14.0",
+    "lucide-react": "^0.344.0",
+    "nodemailer": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "recharts": "^2.12.0"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^7.0.11",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  }
+}
